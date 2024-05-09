@@ -21,7 +21,6 @@ function App() {
     .catch(error => console.log('Error fetching user data:', error));
   }, []);
 
-
     const[lists, setLists] = useState([]);
 
     useEffect(() => {
